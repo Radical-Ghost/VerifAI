@@ -1,7 +1,5 @@
 # VerifAI - Fake News Detection
 
-![VerifAI Banner](https://i.imgur.com/BvO3Nks.png) <!-- Replace with actual banner if available -->
-
 ## 🧠 Overview
 
 **VerifAI** is a Fake News Detection system built using Machine Learning and Natural Language Processing (NLP). It allows users to input a news headline and optional context, and determines whether the news is **Real** or **Fake** with high confidence. The system also provides explainability using LIME, helping users understand what influenced the prediction.
@@ -47,8 +45,8 @@ weighted avg       0.99      0.99      0.99      7820
 ## 📸 Screenshots
 
 <p float="left">
-  <img src="assets/prediction_example.png" width="45%" />
-  <img src="assets/lime_explanation.png" width="45%" />
+  <img src="assets/Prediction.png" width="45%" />
+  <img src="assets/lime_explanition.png" width="45%" />
 </p>
 
 ## ⚙️ Installation
@@ -70,25 +68,6 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run verifai_app.py
-```
-
-## 📂 Project Structure
-
-```
-VerifAI---Fake-New-Detection/
-├── models/
-│   ├── verifai_vectorizer.pkl
-│   └── verifai_voting_model.pkl
-├── verifai_app.py
-├── lime_explanation.html (optional/generated)
-├── assets/ (images, icons, etc.)
-├── requirements.txt
-└── README.md
-```
-
-## 🤝 Contributing
-
-Pull requests are welcome! If you find a bug or have suggestions for improvements, please [open an issue](https://github.com/Radical-Ghost/VerifAI---Fake-New-Detection/issues).
 
 ## 📜 License
 
