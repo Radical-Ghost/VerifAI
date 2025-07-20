@@ -18,6 +18,33 @@ def load_model():
 
 vectorizer, model = load_model()
 
+# Sidebar
+st.sidebar.title("ℹ️ About VerifAI")
+st.sidebar.markdown(
+    """
+    **VerifAI** is a Fake News Detection system powered by Machine Learning and NLP.
+
+    🧠 **Model Used**: Voting Classifier (Logistic Regression + SVM + Random Forest)  
+    🔤 **Feature Extraction**: TF-IDF Vectorizer  
+    📄 **Explainability**: LIME (Local Interpretable Model-agnostic Explanations)  
+    📊 **Evaluation**: Accuracy, Precision, Recall, F1, Confusion Matrix, ROC-AUC
+
+    ---
+    **Instructions:**
+    1. Enter a **news title**.
+    2. Optionally provide a **context/paragraph**.
+    3. Click **✅ Check Prediction** to classify.
+    4. Use **🧪 Explain Prediction** to see LIME-based feature impact.
+
+    ---
+    🔐 *No data is stored. All processing is done locally.*
+    """
+)
+
+# GitHub link
+st.sidebar.markdown("---")
+st.sidebar.markdown("🔗 [View on GitHub](https://github.com/Radical-Ghost/VerifAI---Fake-New-Detection)")
+
 # App UI
 st.title("🧠 VerifAI - Fake News Detector")
 st.markdown("Enter the **news title** and (optionally) a **context/paragraph** to check if it's **Real or Fake**.")
