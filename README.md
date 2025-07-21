@@ -68,6 +68,7 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run verifai_app.py
+```
 
 ## 📜 License
 
