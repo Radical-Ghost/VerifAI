@@ -81,5 +81,3 @@ This project is licensed under the MIT License.
 * [LIME Documentation](https://github.com/marcotcr/lime)
 
 ---
-
-Made with ❤️ for learning and real-world impact.
