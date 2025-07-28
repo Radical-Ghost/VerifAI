@@ -6,19 +6,19 @@
 
 ## 🚀 Features
 
-* **Text Input**: Title + optional paragraph context
-* **Prediction**: Real/Fake classification with confidence score
-* **Explainability**: Integrated **LIME** explanations for model decisions
-* **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, Confusion Matrix, and ROC-AUC
-* **Streamlit Frontend**: Interactive web app with toggle buttons and progress bars
+-   **Text Input**: Title + optional paragraph context
+-   **Prediction**: Real/Fake classification with confidence score
+-   **Explainability**: Integrated **LIME** explanations for model decisions
+-   **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, Confusion Matrix, and ROC-AUC
+-   **Streamlit Frontend**: Interactive web app with toggle buttons and progress bars
 
 ## 🛠️ Tech Stack
 
-* **Language**: Python
-* **Frontend**: Streamlit
-* **ML Models**: Logistic Regression, SVM, Random Forest (Voting Classifier)
-* **Vectorization**: TF-IDF
-* **Explainability**: LIME
+-   **Language**: Python
+-   **Frontend**: Streamlit
+-   **ML Models**: Logistic Regression, SVM, Random Forest (Voting Classifier)
+-   **Vectorization**: TF-IDF
+-   **Explainability**: LIME
 
 ## 📈 Model Performance
 
@@ -76,8 +76,9 @@ This project is licensed under the MIT License.
 
 ## 🔗 Links
 
-* [GitHub Repo](https://github.com/Radical-Ghost/VerifAI---Fake-New-Detection)
-* [Streamlit Documentation](https://docs.streamlit.io/)
-* [LIME Documentation](https://github.com/marcotcr/lime)
+-   [GitHub Repo](https://github.com/Radical-Ghost/VerifAI---Fake-New-Detection)
+-   [Streamlit Documentation](https://docs.streamlit.io/)
+-   [LIME Documentation](https://github.com/marcotcr/lime)
+-   [Dataset Used for Training](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
 
 ---
