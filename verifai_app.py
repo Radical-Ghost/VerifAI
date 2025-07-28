@@ -3,11 +3,9 @@ import joblib
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import VotingClassifier
-
 from lime.lime_text import LimeTextExplainer
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
-import sklearn
 
 # Load model and vectorizer
 @st.cache_resource
