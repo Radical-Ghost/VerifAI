@@ -51,28 +51,34 @@ weighted avg       0.99      0.99      0.99      7820
 
 ## ⚙️ Installation
 
-1. Clone the repository
+### Using UV (Recommended)
+
+1. **Clone the repository**
 
 ```bash
 git clone https://github.com/Radical-Ghost/VerifAI---Fake-New-Detection
 cd VerifAI---Fake-New-Detection
 ```
 
-2. Install dependencies
+2. **Create virtual environment and install dependencies**
 
 ```bash
-pip install -r requirements.txt
+# Create .venv environment
+uv venv
+
+# Activate the environment
+.venv\Scripts\activate  # Windows
+# source .venv/bin/activate  # Linux/Mac
+
+# Install all dependencies from requirements.txt
+uv pip install -r requirements.txt
 ```
 
-3. Run the app
+3. **Run the app**
 
 ```bash
 streamlit run verifai_app.py
 ```
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ## 🔗 Links
 
